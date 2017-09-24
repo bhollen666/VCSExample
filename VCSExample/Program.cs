@@ -11,12 +11,19 @@ namespace VCSExample
         static void Main(string[] args)
         {
             Console.WriteLine("Here's a value: {0}", DoubleIt(2));
+            Console.WriteLine("Tripling 0.333 is {0}", TripleIt(0.333));
             Console.WriteLine("");
         }
         static public double DoubleIt(double aInput)
         {
             double value = 0;
             value = aInput * 2.00;
+            return value;
+        }
+        static public double TripleIt(double aInput)
+        {
+            double value = 0;
+            value = aInput * 3.00;
             return value;
         }
     }
