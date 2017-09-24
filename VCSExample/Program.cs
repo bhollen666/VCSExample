@@ -13,10 +13,10 @@ namespace VCSExample
             Console.WriteLine("Here's a value: {0}", DoubleIt(2));
             Console.WriteLine("");
         }
-        static public int DoubleIt(int aInput)
+        static public double DoubleIt(double aInput)
         {
-            int value = 0;
-            value = aInput * 2;
+            double value = 0;
+            value = aInput * 2.00;
             return value;
         }
     }
