@@ -10,6 +10,14 @@ namespace VCSExample
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Here's a value: {0}", FooA(2));
+            Console.WriteLine("");
+        }
+        static public int FooA(int aInput)
+        {
+            int value = 0;
+            value = aInput * 2;
+            return value;
         }
     }
 }
